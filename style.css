@@ -1,0 +1,47 @@
+body {
+   margin: 0;
+   background-color: red;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header section */
+
+header {
+    background-color: coral;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+}
+nav a{
+    font-size: 22px;
+    color: black;
+    transition: 0.3s;
+    font-weight: 600;
+}
+nav a:hover {
+    text-shadow: 0px 0px 15px black, 0px 0px 5px black;
+    transform: scale(1.1) translateY(-4px);
+}
+
+main h1 {
+    color: rgb(118, 34, 4);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
