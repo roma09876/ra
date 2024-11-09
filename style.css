@@ -1,5 +1,4 @@
 body {
-<<<<<<< HEAD
   margin: 0;
   background-color: bisque;
   font-family: Arial, Helvetica, sans-serif;
@@ -94,57 +93,86 @@ main h1 {
   text-align: center;
 }
 
-.side-nav-text a{
+.side-nav-text a {
   display: block;
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 20px;
 }
-=======
-   margin: 0;
-   background-color: red;
-   font-family: Arial, Helvetica, sans-serif;
-}
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Header section */
 
 header {
-    background-color: coral;
-    display: flex;
-    padding: 20px;
-    align-items: center;
+  background-color: coral;
+  display: flex;
+  padding: 20px;
+  align-items: center;
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 nav {
-    display: flex;
-    width: 800px;
-    justify-content: space-around;
+  display: flex;
+  width: 800px;
+  justify-content: space-around;
 }
-nav a{
-    font-size: 22px;
-    color: black;
-    transition: 0.3s;
-    font-weight: 600;
+nav a {
+  font-size: 22px;
+  color: black;
+  transition: 0.3s;
+  font-weight: 600;
 }
 nav a:hover {
-    text-shadow: 0px 0px 15px black, 0px 0px 5px black;
-    transform: scale(1.1) translateY(-4px);
+  text-shadow: 0px 0px 15px black, 0px 0px 5px black;
+  transform: scale(1.1) translateY(-4px);
 }
 
 main h1 {
-    color: rgb(118, 34, 4);
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  color: rgb(118, 34, 4);
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
->>>>>>> 3c5c643ea8ef9e0c775138dc2bbff36b2eccb36c
+footer {
+  background-color: coral;
+  padding: 15px;
+  font-size: 20px;
+  display: flex;
+}
+
+.links {
+  margin-left: 300px;
+}
+
+/* ABOUT */
+
+.about-main {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.infor {
+  width: 600px;
+  height: 600px;
+  background-color: coral;
+  border-radius: 70px;
+  padding: 20px;
+}
+.infor p, li{
+  font-size: 20px;
+}
+
+.infor h1{
+  display: block;
+  text-align: center;
+  margin: 20px 0px;
+}
